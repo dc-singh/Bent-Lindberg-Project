@@ -1,0 +1,168 @@
+/* @import url('https://fonts.googleapis.com/css2?family=Protest+Guerrilla&family=Sixtyfour&display=swap'); */
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* font-family: 'Protest Guerrilla', sans-serif; */
+}
+
+html,
+body {
+    height: 100%;
+    width: 100%;
+}
+
+.main {
+    height: 100%;
+    width: 100%;
+}
+
+.nav {
+    position: fixed;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding: 20px 30px;
+    gap: 10px;
+}
+
+.nav h3 {
+    background-color: black;
+    color: white;
+    padding: 15px 25px;
+    border-radius: 30px;
+    font-size: 25px;
+}
+
+.intro {
+    height: 55%;
+    width: 100%;
+    padding: 45px 80px;
+}
+
+.intro h1 {
+    font-size: 100px;
+    letter-spacing: -5px;
+    line-height: 100px;
+}
+
+.place {
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.place h3,
+h4 {
+    font-size: 40px;
+}
+
+.hero-image {
+    height: 90%;
+    width: 100%;
+    background-image: url(/project2/6458a6db645ec6a527000cfa_home-hero.webp);
+    background-size: cover;
+}
+
+.about {
+    height: 60%;
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 50px 60px;
+}
+
+.about h2 {
+    width: 60%;
+    font-size: 60px;
+    line-height: 75px;
+}
+
+.about-part2 {
+    width: 35%;
+    height: 100%;
+    padding: 0px 70px;
+    border-left: 2px solid black;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.about-part2 h3 {
+    font-size: 30px;
+    font-weight: 600;
+}
+
+.icons i {
+    padding: 10px;
+    font-size: 30px;
+    border-radius: 50%;
+    background-color: black;
+    color: white;
+}
+
+.work {
+    border-top: 2px solid black;
+    height: 70%;
+    width: 100%;
+    display: flex;
+    padding: 50px 60px;
+}
+
+.work1 {
+    width: 35%;
+    height: 100%;
+    display: flex;
+    justify-content: space-between;
+    padding-right: 40px;
+    border-right: 2px solid black;
+}
+
+.work1 h3,
+i {
+    font-size: 33px;
+}
+
+.work2 {
+    width: 65%;
+    height: 100%;
+    padding: 0px 60px;
+}
+
+.work2-part {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 12px 0px;
+}
+
+.work2-part:nth-child(1) {
+    border-bottom: 2px solid black;
+    padding-top: 0px;
+}
+
+.work2-part>.elem {
+    width: 50%;
+    height: 100%;
+}
+
+.work2-part>.elem:nth-child(1) {
+    border-right: 2px solid black;
+}
+
+.work2-part>.elem:nth-child(2) {
+    padding-left: 60px;
+}
+
+.elem > h2 {
+    font-size: 40px;
+}
+
+.elem > p {
+    font-size: 18px;
+}
